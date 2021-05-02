@@ -48,7 +48,6 @@
 // }
 
 // switch case
-
 let key = 999
 switch (key) {
   case 100:
