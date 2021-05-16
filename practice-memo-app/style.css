@@ -3,17 +3,26 @@
   display: flex;
   justify-content: space-between;
 }
+
+h1 {
+  color: #64363c;
+}
+
+p {
+  font-weight: 500;
+}
 .app {
   width: 50%;
   padding: 20px;
-  border: 1px solid #000;
+  /* background-color: #9e7a7a; */
+  border-left: 10px solid #9e7a7a;
   box-sizing: border-box;
 }
 
 .memo {
   width: 50%;
   padding: 20px;
-  border: 1px solid #000;
+  border-left: 10px solid #9e7a7a;
   box-sizing: border-box;
 }
 
@@ -24,7 +33,7 @@ input {
 
 .add {
   margin-top: 20px;
-  background-color: #000;
+  background-color: #64363c;
   color: #fff;
   border: 0;
   border-radius: 5px;
@@ -38,7 +47,7 @@ input {
 
 .item {
   width: 100%;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #9e7a7a;
   margin-bottom: 10px;
   padding-bottom: 10px;
   display: flex;
@@ -47,10 +56,11 @@ input {
 }
 
 .remove {
-  background-color: #b5495b;
+  background-color: transparent;
+  border: 1px solid #b5495b;
   margin-top: 20px;
-  color: #fff;
-  border: 0;
+  color: #b5495b;
+  /* border: 0; */
   border-radius: 5px;
   box-sizing: border-box;
   /* width: 100%; */
