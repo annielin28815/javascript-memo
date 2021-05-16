@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="all">
+    <div class="app">
+      <h1>備忘錄</h1>
+      <p>標題</p>
+      <input type="text" id="title"/>
+      <p>內容</p>
+      <input type="text" id="content" />
+      <p>日期</p>
+      <input type="date" id="date"/>
+      <p>時間</p>
+      <input type="time" id="time"/>
+
+    <div class="all">
+      <button class="remove" id="deletedBtn">刪除最後一個</button>
+      <button class="add" id="addedBtn">新增</button>
+    </div>
+
+    </div>
+    <div class="memo">
+      <div class="list" id="list">
+        <div class="item">
+          <div>
+            <p>標題：</p>
+            <p>內容：</p>
+            <p>時間：</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
