@@ -6,14 +6,18 @@
 
 ### 摘要
 
+- 左邊的編輯區塊可新增項目，按下送出後，在右邊之預覽區塊顯示。另實作刪除功能。
+
 - 練習完成畫面
-  ![day01預覽圖](https://i.imgur.com/B2v5wlP.png)
+  ![預覽圖](https://i.imgur.com/B2v5wlP.png)
 
 ### HTML 概念
 
 以 div 區分編輯與預覽區塊。
 
 ### CSS 概念
+
+以 space between 排列主區塊。
 
 ### JavaScript 概念
 
